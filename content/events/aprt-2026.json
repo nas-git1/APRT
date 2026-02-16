@@ -1,0 +1,121 @@
+{
+  "slug": "aprt-2026",
+  "editionTitle": "LES 32ÈME JOURNÉES SCIENTIFIQUES ANNUELLES (APRT)",
+  "identityLine": "ASSOCIATION DES PÉDIATRES DE LA RÉGION TENSIFT — APRT",
+  "datesText": "Du 08 au 10 Mai 2026",
+  "city": "Marrakech",
+  "posterImagePath": "/assets/events/2026-poster.jpg",
+  "themes": [
+    "GASTROENTEROLOGIE",
+    "HEMATO-ONCOLOGIE",
+    "INFECTIOLOGIE",
+    "NEONATALOGIE",
+    "PEDOPSYCHIATRIE",
+    "PNEUMO-ALLERGOLOGIE",
+    "VACCINOLOGIE",
+    "RHUMATOLOGIE ET MALADIE METABOLIQUE"
+  ],
+  "prizes": {
+    "first": "5.000 Dh",
+    "second": "4.000 Dh"
+  },
+  "contacts": [
+    {
+      "name": "Dr Moulay Abdelaziz Katif",
+      "phone": "0661264254"
+    },
+    {
+      "name": "Dr Fatiha Bennaoui",
+      "phone": "0664848734"
+    },
+    {
+      "name": "Dr Khalid Lagmiri",
+      "phone": "0661192622"
+    }
+  ],
+  "email": "aprtassociation.1995@gmail.com",
+  "submissionDeadline": "8 avril 2026",
+  "sections": {
+    "programme": {
+      "days": [
+        {
+          "key": "vendredi",
+          "label": "Vendredi",
+          "sessions": [
+            {
+              "title": "Programme en preparation",
+              "time": "A venir"
+            }
+          ]
+        },
+        {
+          "key": "samedi",
+          "label": "Samedi",
+          "sessions": [
+            {
+              "title": "Programme en preparation",
+              "time": "A venir"
+            }
+          ]
+        },
+        {
+          "key": "dimanche",
+          "label": "Dimanche",
+          "sessions": [
+            {
+              "title": "Programme en preparation",
+              "time": "A venir"
+            }
+          ]
+        }
+      ]
+    },
+    "speakers": [
+      {
+        "name": "Intervenants a venir",
+        "role": "Publication prochaine"
+      }
+    ],
+    "eposters": [
+      {
+        "title": "Liste des e-posters a venir",
+        "language": "Francais",
+        "tags": ["A venir"]
+      }
+    ],
+    "practicalInfo": [
+      {
+        "title": "Ville",
+        "value": "Marrakech"
+      },
+      {
+        "title": "Dates",
+        "value": "Du 08 au 10 Mai 2026"
+      },
+      {
+        "title": "Soumission",
+        "value": "Date limite: 8 avril 2026"
+      }
+    ],
+    "documents": [
+      {
+        "label": "Fiche de soumission",
+        "href": "#"
+      },
+      {
+        "label": "Programme detaille",
+        "href": "#"
+      }
+    ],
+    "usefulLinks": [
+      {
+        "label": "Contact APRT",
+        "href": "/contact"
+      },
+      {
+        "label": "Galerie",
+        "href": "/galerie"
+      }
+    ]
+  }
+}

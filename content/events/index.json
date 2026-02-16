@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "aprt-2026",
+    "editionTitle": "LES 32ÈME JOURNÉES SCIENTIFIQUES ANNUELLES (APRT)",
+    "datesText": "Du 08 au 10 Mai 2026",
+    "city": "Marrakech",
+    "posterImagePath": "/assets/events/2026-poster.jpg",
+    "status": "upcoming",
+    "featured": true,
+    "startDateISO": "2026-05-08"
+  },
+  {
+    "slug": "aprt-2025",
+    "editionTitle": "LES 31ÈME JOURNÉES SCIENTIFIQUES ANNUELLES (APRT)",
+    "datesText": "du 13 au 15 juin 2025",
+    "city": "Marrakech",
+    "venue": "Hotel Adam Park Marrakech",
+    "posterImagePath": "/assets/events/2025-poster.jpg",
+    "status": "past",
+    "startDateISO": "2025-06-13"
+  }
+]

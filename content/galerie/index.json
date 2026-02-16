@@ -1,0 +1,42 @@
+[
+  {
+    "id": "essaouira-1",
+    "title": "Essaouira 1",
+    "imagePath": "/assets/galery/essaouira1.jpeg"
+  },
+  {
+    "id": "essaouira-2",
+    "title": "Essaouira 2",
+    "imagePath": "/assets/galery/essaouira2.jpeg"
+  },
+  {
+    "id": "essaouira-3",
+    "title": "Essaouira 3",
+    "imagePath": "/assets/galery/essaouira3.jpeg"
+  },
+  {
+    "id": "essaouira-4",
+    "title": "Essaouira 4",
+    "imagePath": "/assets/galery/essaouira4.jpeg"
+  },
+  {
+    "id": "essaouira-5",
+    "title": "Essaouira 5",
+    "imagePath": "/assets/galery/essaouira5.jpeg"
+  },
+  {
+    "id": "essaouira-6",
+    "title": "Essaouira 6",
+    "imagePath": "/assets/galery/essaouira6.jpeg"
+  },
+  {
+    "id": "essaouira-7",
+    "title": "Essaouira 7",
+    "imagePath": "/assets/galery/essaouira7.jpeg"
+  },
+  {
+    "id": "essaouira-8",
+    "title": "Essaouira 8",
+    "imagePath": "/assets/galery/essaouira8.jpeg"
+  }
+]
