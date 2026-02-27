@@ -1,357 +1,657 @@
-{
-  "slug": "aprt-2025",
-  "editionTitle": "LES 31ÈME JOURNÉES SCIENTIFIQUES ANNUELLES (APRT)",
-  "identityLine": "ASSOCIATION DES PÉDIATRES DE LA RÉGION TENSIFT — APRT",
-  "datesText": "du 13 au 15 juin 2025",
-  "city": "Marrakech",
-  "venue": "Hotel Adam Park Marrakech",
-  "posterImagePath": "/assets/events/2025-poster.jpg",
-  "themes": [
-    "GASTROENTEROLOGIE",
-    "INFECTIOLOGIE",
-    "NEONATALOGIE",
-    "PEDOPSYCHIATRIE",
-    "PNEUMOLOGIE",
-    "VACCINATION",
-    "NEUROLOGIE",
-    "DERMATOLOGIE"
-  ],
-  "contacts": [
-    {
-      "name": "Dr My A. Katif",
-      "phone": "0661264254"
-    }
-  ],
-  "email": "aprtassociation.1995@gmail.com",
-  "sections": {
-    "programme": {
-      "days": [
-        {
-          "key": "vendredi",
-          "label": "Vendredi",
-          "sessions": [
-            {
-              "title": "Communications orales",
-              "time": "15h00-16h00",
-              "moderators": ["K. El Fakiri", "F. Bennaoui", "R. El Qadiry"]
-            },
-            {
-              "title": "Session chirurgie pediatrique",
-              "time": "16h00-16h30",
-              "talks": [{ "speaker": "T. Salama", "title": "Pied du nouveau ne" }],
-              "moderators": ["A. El Mouhtadi", "E. E. Kamili", "A. Alaoui"]
-            },
-            {
-              "title": "Session cas cliniques",
-              "time": "16h30-17h30",
-              "talks": [
-                { "speaker": "I. Ait Sab", "title": "Cas N1", "time": "16h30-16h50" },
-                { "speaker": "W. Lahmini", "title": "Cas N2", "time": "16h50-17h10" },
-                { "speaker": "H. Karkouri", "title": "Cas N3", "time": "17h10-17h30" }
-              ],
-              "moderators": ["B. Jabir", "H. Nassih", "A. Thimou"]
-            },
-            {
-              "title": "Pause cafe",
-              "time": "17h30-18h00"
-            },
-            {
-              "title": "Mot de bienvenue",
-              "time": "18h00-18h15",
-              "talks": [
-                { "speaker": "My. A. Katif", "title": "President de l'APRT", "time": "18h00-18h04" },
-                { "speaker": "My. S. Afif", "title": "President de la SMSM", "time": "18h04-18h08" },
-                { "speaker": "M. Bouskraoui", "title": "President de la SOMIPEV", "time": "18h08-18h12" },
-                { "speaker": "S. Zouhair", "title": "Doyen de la FMPM", "time": "18h12-18h15" }
-              ]
-            },
-            {
-              "title": "Conferences d'inauguration",
-              "time": "18h15-19h15",
-              "talks": [
-                { "speaker": "M. Bellaiche", "title": "Chat GPT entre pediatre et parents", "time": "18h15-18h45" },
-                { "speaker": "A. Dami", "title": "Risques juridiques en pediatrie", "time": "18h45-19h15" }
-              ],
-              "moderators": ["A. Ben Abbes Taarji", "Z. Said", "H. Hadj Khalifa"]
-            }
-          ]
-        },
-        {
-          "key": "samedi",
-          "label": "Samedi",
-          "sessions": [
-            {
-              "title": "Atelier 1",
-              "time": "08h30-09h00",
-              "talks": [{ "speaker": "S. Atmani", "title": "Raisonnement a travers les 7 dimensions reflexes" }],
-              "moderators": ["F. Benhayoun", "I. Ait Sab", "M. Hida"]
-            },
-            {
-              "title": "Atelier 2",
-              "time": "09h00-09h30",
-              "talks": [{ "speaker": "A. Barkat", "title": "Comment gerer le risque d'infection neonatale bacterienne precoce" }],
-              "moderators": ["M.R.F. Maoulainine", "A. Daoudi", "A. Oulmaati"]
-            },
-            {
-              "title": "Session pneumologie",
-              "time": "09h30-10h30",
-              "talks": [
-                { "speaker": "A. A. Bousfiha", "title": "Orientation diagnostique devant une DDB", "time": "09h30-10h00" },
-                { "speaker": "K. El Fakiri", "title": "Peut on guerir de l'asthme prescolaire", "time": "10h00-10h30" }
-              ],
-              "moderators": ["K. Lagmiri", "N. Rada", "I. Benhsaien"]
-            },
-            {
-              "title": "Pause cafe",
-              "time": "10h30-11h00"
-            },
-            {
-              "title": "Session vaccination",
-              "time": "11h00-12h00",
-              "talks": [
-                { "speaker": "H. Haas", "title": "Vaccination antiHPV par le pediatre prive : defis et solutions", "time": "11h00-11h30" },
-                { "speaker": "M. Bouskraoui", "title": "Role des vaccins combines et interet de la vaccination de rappel contre la coqueluche", "time": "11h30-12h00" }
-              ],
-              "moderators": ["S. Sahoud", "C. Douerrached", "A. Lammat"]
-            },
-            {
-              "title": "Session questions flash",
-              "time": "12h00-13h00",
-              "talks": [
-                { "speaker": "M. Ksiyer", "title": "Echographie transfontanellaire : indications, interets et limites", "time": "12h00-12h20" },
-                { "speaker": "A. Bourrahouat", "title": "Management de l'infection a HP en pediatrie", "time": "12h20-12h40" },
-                { "speaker": "R. El Qadiry", "title": "Gynecomastie : quand bilanter ?", "time": "12h40-13h00" }
-              ],
-              "moderators": ["K. Razzouki", "A. Bourrahouat", "A. Aboussad"]
-            },
-            {
-              "title": "Dejeuner",
-              "time": "13h00-14h30"
-            },
-            {
-              "title": "Session neurologie",
-              "time": "14h30-15h30",
-              "talks": [
-                { "speaker": "A. El Madani", "title": "Initiation du traitement anti epileptique", "time": "14h30-15h00" },
-                { "speaker": "A. El Madani", "title": "Cephalees chez l'enfant : quelle prise en charge", "time": "15h00-15h30" }
-              ],
-              "moderators": ["H. Hajj Khalifa", "K. Bouhmouch", "A. Jennah"]
-            },
-            {
-              "title": "Session dermatologie",
-              "time": "15h30-16h30",
-              "talks": [
-                { "speaker": "O. Hocar", "title": "Dermatoses neonatales entre normal et anormal", "time": "15h30-16h00" },
-                { "speaker": "O. Hocar", "title": "Fesses rouges du Nourrisson : comment s'orienter", "time": "16h00-16h30" }
-              ],
-              "moderators": ["N. El Idrissi Slitine", "M. Bennani", "K. El Baroudi"]
-            },
-            {
-              "title": "Pause cafe",
-              "time": "16h30-17h00"
-            },
-            {
-              "title": "Session pedopsychiatrie",
-              "time": "17h00-18h00",
-              "talks": [
-                { "speaker": "H. Hjiej", "title": "TDAH : quelle prise en charge au Maroc", "time": "17h00-17h30" },
-                { "speaker": "B. Abbassi", "title": "Outils de diagnostic precoce de l'autisme", "time": "17h30-18h00" }
-              ],
-              "moderators": ["N. Boucetta", "L. Touami", "J. Elouarzazi"]
-            },
-            {
-              "title": "Session gastroenterologie",
-              "time": "18h00-19h00",
-              "talks": [
-                { "speaker": "P. Tounian", "title": "Carences nutritionnelles : ce qu'il faut savoir pour mieux prevenir", "time": "18h00-18h30" },
-                { "speaker": "P. Tounian", "title": "Situations cliniques en gastroenterologie pediatrique", "time": "18h30-19h00" }
-              ],
-              "moderators": ["M. Hida", "S. Ettair", "A. Abkari"]
-            },
-            {
-              "title": "Presentation de l'ouvrage",
-              "time": "19h00-19h15",
-              "talks": [{ "speaker": "Pr Ouazzani", "title": "Regard sur l'histoire de la pediatrie marocaine a travers …" }]
-            }
-          ]
-        },
-        {
-          "key": "dimanche",
-          "label": "Dimanche",
-          "sessions": [
-            {
-              "title": "Urgences et reanimation pediatrique",
-              "time": "09h00-10h30",
-              "talks": [
-                { "speaker": "S. Younous", "title": "Choc septique", "time": "09h00-09h30" },
-                { "speaker": "A. Bousfiha", "title": "Anaphylaxie vaccinale", "time": "09h30-10h00" },
-                { "speaker": "M. Oulad Saiad", "title": "Appendicite aigue : place du traitement medical", "time": "10h00-10h30" }
-              ],
-              "moderators": ["H. Karkouri", "Y. Mouaffak", "W. Lahmini"]
-            },
-            {
-              "title": "Pause cafe",
-              "time": "10h30-11h00"
-            },
-            {
-              "title": "Cas cliniques en gastro-enterologie pediatrique",
-              "time": "11h00-12h00",
-              "talks": [{ "speaker": "M. Bellaiche", "title": "Cas cliniques en gastro-enterologie pediatrique", "time": "11h00-12h00" }],
-              "moderators": ["M. Rkain", "A. Bourrahouate", "F. Zegzouti"]
-            },
-            {
-              "title": "Cloture du congres",
-              "time": "12h00"
-            }
-          ]
-        }
-      ]
-    },
-    "speakers": [
-      { "name": "My. A. Katif", "role": "President APRT" },
-      { "name": "My. S. Afif", "role": "President SMSM" },
-      { "name": "M. Bouskraoui", "role": "President SOMIPEV" },
-      { "name": "S. Zouhair", "role": "Doyen FMPM" },
-      { "name": "M. Bellaiche", "role": "Intervenant" },
-      { "name": "A. Dami", "role": "Intervenant" },
-      { "name": "S. Atmani", "role": "Intervenant" },
-      { "name": "A. Barkat", "role": "Intervenant" },
-      { "name": "A. A. Bousfiha", "role": "Intervenant" },
-      { "name": "K. El Fakiri", "role": "Intervenant" },
-      { "name": "H. Haas", "role": "Intervenant" },
-      { "name": "M. Ksiyer", "role": "Intervenant" },
-      { "name": "A. Bourrahouat", "role": "Intervenant" },
-      { "name": "R. El Qadiry", "role": "Intervenant" },
-      { "name": "A. El Madani", "role": "Intervenant" },
-      { "name": "A. El Madani", "role": "Intervenant" },
-      { "name": "O. Hocar", "role": "Intervenant" },
-      { "name": "O. Hocar", "role": "Intervenant" },
-      { "name": "H. Hjiej", "role": "Intervenant" },
-      { "name": "B. Abbassi", "role": "Intervenant" },
-      { "name": "P. Tounian", "role": "Intervenant" },
-      { "name": "P. Tounian", "role": "Intervenant" },
-      { "name": "Pr Ouazzani", "role": "Intervenant" },
-      { "name": "S. Younous", "role": "Intervenant" },
-      { "name": "A. Bousfiha", "role": "Intervenant" },
-      { "name": "M. Oulad Saiad", "role": "Intervenant" }
-    ],
-    "eposters": [
-      {
-        "title": "Thyroidite auto-immune de Hashimoto chez l'enfant : a propos d'un cas",
-        "language": "Francais",
-        "tags": ["Endocrinologie"]
-      },
-      {
-        "title": "Mort subite dans le cadre de l'epilepsie : a propos de deux cas",
-        "language": "Francais",
-        "tags": ["Neurologie"]
-      },
-      {
-        "title": "Outcomes of pregnancies with preterm premature rupture of membranes occurring before 24 weeks of gestation: An 11-year observational study.",
-        "language": "Anglais",
-        "tags": ["Neonatologie"]
-      },
-      {
-        "title": "Tuberculose de la glande sousmaxillaire : un piege diagnostique",
-        "language": "Francais",
-        "tags": ["Infectiologie"]
-      },
-      {
-        "title": "Type I Thanatophoric Dysplasia: Clinical Outcome in the Absence of Molecular Genetic Confirmation — A Case Report",
-        "language": "Anglais",
-        "tags": ["Genetique"]
-      },
-      {
-        "title": "Un lymphome lymphoblastique T revelant le syndrome ataxie telangiectasie : a propos d'un cas",
-        "language": "Francais",
-        "tags": ["Hemato-oncologie"]
-      },
-      {
-        "title": "Une detresse respiratoire neonatale revelant un chylothorax idiopathique",
-        "language": "Francais",
-        "tags": ["Neonatologie"]
-      },
-      {
-        "title": "Utilisation du Surfactant en Service de Neonatologie de 2020 a 2024 : Analyse de 16 Cas",
-        "language": "Francais",
-        "tags": ["Neonatologie"]
-      },
-      {
-        "title": "Uveite tuberculeuse : A propos de 02 cas",
-        "language": "Francais",
-        "tags": ["Infectiologie"]
-      },
-      {
-        "title": "Basedow de l'enfant : quand la clinique prime sur la biologie",
-        "language": "Francais",
-        "tags": ["Endocrinologie"]
-      },
-      {
-        "title": "Bradycardie congenitale revelant un ventricule unique (A propos d'un cas)",
-        "language": "Francais",
-        "tags": ["Cardiologie"]
-      },
-      {
-        "title": "Carie de la petite enfance : vers une approche preventive integree",
-        "language": "Francais",
-        "tags": ["Prevention"]
-      },
-      {
-        "title": "DECES PAR VIOLENCE PHYSIQUE EN MILIEU SCOLAIRE : A PROPOS D'UN CAS",
-        "language": "Francais",
-        "tags": ["Medico-legal"]
-      },
-      {
-        "title": "Encephalite post-rougeoleuse chez l'enfant",
-        "language": "Francais",
-        "tags": ["Neurologie"]
-      }
-    ],
-    "presidentMessage": {
-      "content": "chers collègues et amis,\nAu nom de tous les membres de l’APRT, je vous souhaite la bienvenue à la 31 ème édition de nos journées scientifiques annuelles.\nCe rendez-vous annuel est devenu au fil du temps une station importante pour confronter nos expériences, renforcer nos liens amicaux et développer nos réseaux professionnels. D’imminents orateurs marocains et étrangers, aborderont pendant trois jours sous forme de conférences, symposiums, questions flash, tables rondes et séances interactives des thématiques variées et multidisciplinaires en phase avec les avancées scientifiques de notre spécialité.\nA travers les conférences d’inauguration, on essaiera de sensibiliser chacun d’entre nous aux enjeux médico-légaux que nous risquons au quotidien; et à l’ère de l’intelligence artificielle, nous réfléchirons à comment préserver une communication humaine et adaptée aux informations qui circulent.\nEspérons que ce partage répondra à vos attentes. C’est toujours un réel plaisir de vous accueillir parmi nous.",
-      "signature": "Dr My A. Katif\nPrésident de l’ APRT"
-    },
-    "practicalInfo": [
-      {
-        "title": "Lieu",
-        "value": "Hotel Adam Park Marrakech"
-      },
-      {
-        "title": "Dates",
-        "value": "du 13 au 15 juin 2025"
-      },
-      {
-        "title": "Ville",
-        "value": "Marrakech"
-      }
-    ],
-    "documents": [
-      {
-        "label": "Programme PDF (a venir)",
-        "href": "#"
-      },
-      {
-        "label": "Fiche technique",
-        "href": "#"
-      },
-      {
-        "label": "Plan d'acces",
-        "href": "#"
-      }
-    ],
-    "usefulLinks": [
-      {
-        "label": "Hebergement recommande",
-        "href": "#"
-      },
-      {
-        "label": "Inscription en ligne",
-        "href": "#"
-      },
-      {
-        "label": "Contact organisation",
-        "href": "/contact"
-      }
-    ]
-  }
+﻿{
+    "slug":  "aprt-2025",
+    "editionTitle":  "LES 31ÈME JOURNÉES SCIENTIFIQUES ANNUELLES (APRT)",
+    "identityLine":  "ASSOCIATION DES PÉDIATRES DE LA RÉGION TENSIFT - APRT",
+    "datesText":  "du 13 au 15 juin 2025",
+    "city":  "Marrakech",
+    "venue":  "Hotel Adam Park Marrakech",
+    "posterImagePath":  "/assets/events/2025-poster.jpg",
+    "themes":  [
+                   "GASTROENTEROLOGIE",
+                   "INFECTIOLOGIE",
+                   "NEONATALOGIE",
+                   "PEDOPSYCHIATRIE",
+                   "PNEUMOLOGIE",
+                   "VACCINATION",
+                   "NEUROLOGIE",
+                   "DERMATOLOGIE"
+               ],
+    "contacts":  [
+                     {
+                         "name":  "Dr My A. Katif",
+                         "phone":  "0661264254"
+                     }
+                 ],
+    "email":  "aprtassociation.1995@gmail.com",
+    "sections":  {
+                     "programme":  {
+                                       "days":  [
+                                                    {
+                                                        "key":  "vendredi",
+                                                        "label":  "Vendredi",
+                                                        "sessions":  [
+                                                                         {
+                                                                             "title":  "Communications orales",
+                                                                             "time":  "15h00-16h00",
+                                                                             "moderators":  [
+                                                                                                "K. El Fakiri",
+                                                                                                "F. Bennaoui",
+                                                                                                "R. El Qadiry"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session chirurgie pediatrique",
+                                                                             "time":  "16h00-16h30",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "T. Salama",
+                                                                                               "title":  "Pied du nouveau ne"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "A. El Mouhtadi",
+                                                                                                "E. E. Kamili",
+                                                                                                "A. Alaoui"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session cas cliniques",
+                                                                             "time":  "16h30-17h30",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "I. Ait Sab",
+                                                                                               "title":  "Cas N1",
+                                                                                               "time":  "16h30-16h50"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "W. Lahmini",
+                                                                                               "title":  "Cas N2",
+                                                                                               "time":  "16h50-17h10"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "H. Karkouri",
+                                                                                               "title":  "Cas N3",
+                                                                                               "time":  "17h10-17h30"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "B. Jabir",
+                                                                                                "H. Nassih",
+                                                                                                "A. Thimou"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Pause cafe",
+                                                                             "time":  "17h30-18h00"
+                                                                         },
+                                                                         {
+                                                                             "title":  "Mot de bienvenue",
+                                                                             "time":  "18h00-18h15",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "My. A. Katif",
+                                                                                               "title":  "President de l\u0027APRT",
+                                                                                               "time":  "18h00-18h04"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "My. S. Afif",
+                                                                                               "title":  "President de la SMSM",
+                                                                                               "time":  "18h04-18h08"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "M. Bouskraoui",
+                                                                                               "title":  "President de la SOMIPEV",
+                                                                                               "time":  "18h08-18h12"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "S. Zouhair",
+                                                                                               "title":  "Doyen de la FMPM",
+                                                                                               "time":  "18h12-18h15"
+                                                                                           }
+                                                                                       ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Conferences d\u0027inauguration",
+                                                                             "time":  "18h15-19h15",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "M. Bellaiche",
+                                                                                               "title":  "Chat GPT entre pediatre et parents",
+                                                                                               "time":  "18h15-18h45"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "A. Dami",
+                                                                                               "title":  "Risques juridiques en pediatrie",
+                                                                                               "time":  "18h45-19h15"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "A. Ben Abbes Taarji",
+                                                                                                "Z. Said",
+                                                                                                "H. Hadj Khalifa"
+                                                                                            ]
+                                                                         }
+                                                                     ]
+                                                    },
+                                                    {
+                                                        "key":  "samedi",
+                                                        "label":  "Samedi",
+                                                        "sessions":  [
+                                                                         {
+                                                                             "title":  "Atelier 1",
+                                                                             "time":  "08h30-09h00",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "S. Atmani",
+                                                                                               "title":  "Raisonnement a travers les 7 dimensions reflexes"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "F. Benhayoun",
+                                                                                                "I. Ait Sab",
+                                                                                                "M. Hida"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Atelier 2",
+                                                                             "time":  "09h00-09h30",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "A. Barkat",
+                                                                                               "title":  "Comment gerer le risque d\u0027infection neonatale bacterienne precoce"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "M.R.F. Maoulainine",
+                                                                                                "A. Daoudi",
+                                                                                                "A. Oulmaati"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session pneumologie",
+                                                                             "time":  "09h30-10h30",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "A. A. Bousfiha",
+                                                                                               "title":  "Orientation diagnostique devant une DDB",
+                                                                                               "time":  "09h30-10h00"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "K. El Fakiri",
+                                                                                               "title":  "Peut on guerir de l\u0027asthme prescolaire",
+                                                                                               "time":  "10h00-10h30"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "K. Lagmiri",
+                                                                                                "N. Rada",
+                                                                                                "I. Benhsaien"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Pause cafe",
+                                                                             "time":  "10h30-11h00"
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session vaccination",
+                                                                             "time":  "11h00-12h00",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "H. Haas",
+                                                                                               "title":  "Vaccination antiHPV par le pediatre prive : defis et solutions",
+                                                                                               "time":  "11h00-11h30"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "M. Bouskraoui",
+                                                                                               "title":  "Role des vaccins combines et interet de la vaccination de rappel contre la coqueluche",
+                                                                                               "time":  "11h30-12h00"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "S. Sahoud",
+                                                                                                "C. Douerrached",
+                                                                                                "A. Lammat"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session questions flash",
+                                                                             "time":  "12h00-13h00",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "M. Ksiyer",
+                                                                                               "title":  "Echographie transfontanellaire : indications, interets et limites",
+                                                                                               "time":  "12h00-12h20"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "A. Bourrahouat",
+                                                                                               "title":  "Management de l\u0027infection a HP en pediatrie",
+                                                                                               "time":  "12h20-12h40"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "R. El Qadiry",
+                                                                                               "title":  "Gynecomastie : quand bilanter ?",
+                                                                                               "time":  "12h40-13h00"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "K. Razzouki",
+                                                                                                "A. Bourrahouat",
+                                                                                                "A. Aboussad"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Dejeuner",
+                                                                             "time":  "13h00-14h30"
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session neurologie",
+                                                                             "time":  "14h30-15h30",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "A. El Madani",
+                                                                                               "title":  "Initiation du traitement anti epileptique",
+                                                                                               "time":  "14h30-15h00"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "A. El Madani",
+                                                                                               "title":  "Cephalees chez l\u0027enfant : quelle prise en charge",
+                                                                                               "time":  "15h00-15h30"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "H. Hajj Khalifa",
+                                                                                                "K. Bouhmouch",
+                                                                                                "A. Jennah"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session dermatologie",
+                                                                             "time":  "15h30-16h30",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "O. Hocar",
+                                                                                               "title":  "Dermatoses neonatales entre normal et anormal",
+                                                                                               "time":  "15h30-16h00"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "O. Hocar",
+                                                                                               "title":  "Fesses rouges du Nourrisson : comment s\u0027orienter",
+                                                                                               "time":  "16h00-16h30"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "N. El Idrissi Slitine",
+                                                                                                "M. Bennani",
+                                                                                                "K. El Baroudi"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Pause cafe",
+                                                                             "time":  "16h30-17h00"
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session pedopsychiatrie",
+                                                                             "time":  "17h00-18h00",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "H. Hjiej",
+                                                                                               "title":  "TDAH : quelle prise en charge au Maroc",
+                                                                                               "time":  "17h00-17h30"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "B. Abbassi",
+                                                                                               "title":  "Outils de diagnostic precoce de l\u0027autisme",
+                                                                                               "time":  "17h30-18h00"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "N. Boucetta",
+                                                                                                "L. Touami",
+                                                                                                "J. Elouarzazi"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Session gastroenterologie",
+                                                                             "time":  "18h00-19h00",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "P. Tounian",
+                                                                                               "title":  "Carences nutritionnelles : ce qu\u0027il faut savoir pour mieux prevenir",
+                                                                                               "time":  "18h00-18h30"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "P. Tounian",
+                                                                                               "title":  "Situations cliniques en gastroenterologie pediatrique",
+                                                                                               "time":  "18h30-19h00"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "M. Hida",
+                                                                                                "S. Ettair",
+                                                                                                "A. Abkari"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Presentation de l\u0027ouvrage",
+                                                                             "time":  "19h00-19h15",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "Pr Ouazzani",
+                                                                                               "title":  "Regard sur l\u0027histoire de la pédiatrie marocaine à travers..."
+                                                                                           }
+                                                                                       ]
+                                                                         }
+                                                                     ]
+                                                    },
+                                                    {
+                                                        "key":  "dimanche",
+                                                        "label":  "Dimanche",
+                                                        "sessions":  [
+                                                                         {
+                                                                             "title":  "Urgences et reanimation pediatrique",
+                                                                             "time":  "09h00-10h30",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "S. Younous",
+                                                                                               "title":  "Choc septique",
+                                                                                               "time":  "09h00-09h30"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "A. Bousfiha",
+                                                                                               "title":  "Anaphylaxie vaccinale",
+                                                                                               "time":  "09h30-10h00"
+                                                                                           },
+                                                                                           {
+                                                                                               "speaker":  "M. Oulad Saiad",
+                                                                                               "title":  "Appendicite aigue : place du traitement medical",
+                                                                                               "time":  "10h00-10h30"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "H. Karkouri",
+                                                                                                "Y. Mouaffak",
+                                                                                                "W. Lahmini"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Pause cafe",
+                                                                             "time":  "10h30-11h00"
+                                                                         },
+                                                                         {
+                                                                             "title":  "Cas cliniques en gastro-enterologie pediatrique",
+                                                                             "time":  "11h00-12h00",
+                                                                             "talks":  [
+                                                                                           {
+                                                                                               "speaker":  "M. Bellaiche",
+                                                                                               "title":  "Cas cliniques en gastro-enterologie pediatrique",
+                                                                                               "time":  "11h00-12h00"
+                                                                                           }
+                                                                                       ],
+                                                                             "moderators":  [
+                                                                                                "M. Rkain",
+                                                                                                "A. Bourrahouate",
+                                                                                                "F. Zegzouti"
+                                                                                            ]
+                                                                         },
+                                                                         {
+                                                                             "title":  "Cloture du congres",
+                                                                             "time":  "12h00"
+                                                                         }
+                                                                     ]
+                                                    }
+                                                ]
+                                   },
+                     "speakers":  [
+                                      {
+                                          "name":  "My. A. Katif",
+                                          "role":  "President APRT"
+                                      },
+                                      {
+                                          "name":  "My. S. Afif",
+                                          "role":  "President SMSM"
+                                      },
+                                      {
+                                          "name":  "M. Bouskraoui",
+                                          "role":  "President SOMIPEV"
+                                      },
+                                      {
+                                          "name":  "S. Zouhair",
+                                          "role":  "Doyen FMPM"
+                                      },
+                                      {
+                                          "name":  "M. Bellaiche",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "A. Dami",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "S. Atmani",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "A. Barkat",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "A. A. Bousfiha",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "K. El Fakiri",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "H. Haas",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "M. Ksiyer",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "A. Bourrahouat",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "R. El Qadiry",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "A. El Madani",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "A. El Madani",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "O. Hocar",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "O. Hocar",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "H. Hjiej",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "B. Abbassi",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "P. Tounian",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "P. Tounian",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "Pr Ouazzani",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "S. Younous",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "A. Bousfiha",
+                                          "role":  "Intervenant"
+                                      },
+                                      {
+                                          "name":  "M. Oulad Saiad",
+                                          "role":  "Intervenant"
+                                      }
+                                  ],
+                     "eposters":  [
+                                      {
+                                          "title":  "Thyroidite auto-immune de Hashimoto chez l\u0027enfant : a propos d\u0027un cas",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Endocrinologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Mort subite dans le cadre de l\u0027epilepsie : a propos de deux cas",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Neurologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Outcomes of pregnancies with preterm premature rupture of membranes occurring before 24 weeks of gestation: An 11-year observational study.",
+                                          "language":  "Anglais",
+                                          "tags":  [
+                                                       "Neonatologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Tuberculose de la glande sousmaxillaire : un piege diagnostique",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Infectiologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Type I Thanatophoric Dysplasia: Clinical Outcome in the Absence of Molecular Genetic Confirmation - A Case Report",
+                                          "language":  "Anglais",
+                                          "tags":  [
+                                                       "Genetique"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Un lymphome lymphoblastique T revelant le syndrome ataxie telangiectasie : a propos d\u0027un cas",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Hemato-oncologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Une detresse respiratoire neonatale revelant un chylothorax idiopathique",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Neonatologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Utilisation du Surfactant en Service de Neonatologie de 2020 a 2024 : Analyse de 16 Cas",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Neonatologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Uveite tuberculeuse : A propos de 02 cas",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Infectiologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Basedow de l\u0027enfant : quand la clinique prime sur la biologie",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Endocrinologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Bradycardie congenitale revelant un ventricule unique (A propos d\u0027un cas)",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Cardiologie"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Carie de la petite enfance : vers une approche preventive integree",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Prevention"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "DECES PAR VIOLENCE PHYSIQUE EN MILIEU SCOLAIRE : A PROPOS D\u0027UN CAS",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Medico-legal"
+                                                   ]
+                                      },
+                                      {
+                                          "title":  "Encephalite post-rougeoleuse chez l\u0027enfant",
+                                          "language":  "Francais",
+                                          "tags":  [
+                                                       "Neurologie"
+                                                   ]
+                                      }
+                                  ],
+                     "presidentMessage":  {
+                                              "content":  "Chers collègues et amis,\nAu nom de tous les membres de l\u0027APRT, je vous souhaite la bienvenue à la 31ᵉ édition de nos journées scientifiques annuelles. Ce rendez-vous est devenu un moment clé pour partager nos expériences, renforcer nos liens et développer nos réseaux professionnels.\nPendant trois jours, des orateurs marocains et étrangers aborderont des thématiques variées et multidisciplinaires à travers conférences, symposiums et sessions interactives, en phase avec les avancées scientifiques de notre spécialité.\nNous accorderons également une attention particulière aux enjeux médico-légaux de notre pratique ainsi qu\u0027à la place de l\u0027intelligence artificielle, tout en veillant à préserver une communication humaine adaptée.\nNous espérons que ce partage répondra à vos attentes et sommes heureux de vous accueillir parmi nous.",
+                                              "signature":  "Dr My A. Katif\nPrésident de l\u0027APRT"
+                                          },
+                     "practicalInfo":  [
+                                           {
+                                               "title":  "Lieu",
+                                               "value":  "Hotel Adam Park Marrakech"
+                                           },
+                                           {
+                                               "title":  "Dates",
+                                               "value":  "du 13 au 15 juin 2025"
+                                           },
+                                           {
+                                               "title":  "Ville",
+                                               "value":  "Marrakech"
+                                           }
+                                       ],
+                     "documents":  [
+                                       {
+                                           "label":  "Programme PDF (a venir)",
+                                           "href":  "#"
+                                       },
+                                       {
+                                           "label":  "Fiche technique",
+                                           "href":  "#"
+                                       },
+                                       {
+                                           "label":  "Plan d\u0027acces",
+                                           "href":  "#"
+                                       }
+                                   ],
+                     "usefulLinks":  [
+                                         {
+                                             "label":  "Hebergement recommande",
+                                             "href":  "#"
+                                         },
+                                         {
+                                             "label":  "Inscription en ligne",
+                                             "href":  "#"
+                                         },
+                                         {
+                                             "label":  "Contact organisation",
+                                             "href":  "/contact"
+                                         }
+                                     ]
+                 }
 }

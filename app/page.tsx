@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Countdown } from "@/components/Countdown";
@@ -15,7 +15,8 @@ export const metadata: Metadata = {
 };
 
 function excerptFromPresidentMessage(message: string) {
-  return message.replace(/\s+/g, " ").trim();
+  const normalized = message.replace(/\s+/g, " ").trim();
+  return normalized.length > 320 ? `${normalized.slice(0, 320)}...` : normalized;
 }
 
 export default async function HomePage() {
@@ -146,9 +147,7 @@ export default async function HomePage() {
 
         <div className="section-card flex h-full flex-col p-5">
           <h2 className="text-xl font-bold text-slate-900">Mot du Président</h2>
-          <div className="mt-3 max-h-[560px] grow overflow-y-auto pr-2">
-            <p className="text-sm leading-8 text-slate-700">{presidentExcerpt}</p>
-          </div>
+          <p className="mt-3 max-h-[240px] overflow-hidden text-sm leading-7 text-slate-700">{presidentExcerpt}</p>
           <Link href="/events/aprt-2025/mot-du-president" className="btn-outline mt-4 w-fit">
             Explorer plus
           </Link>
@@ -213,3 +212,4 @@ export default async function HomePage() {
     </div>
   );
 }
+
