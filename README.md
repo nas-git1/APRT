@@ -51,6 +51,16 @@ Site APRT inspire de la structure UX de `somipev.ma` (menu dropdown desktop + ac
   - titres FR/AR plus grands et sur 2 lignes,
   - logo au centre entre les deux titres,
   - contacts avec icones et reseaux sociaux.
+- Navigation `Evenements` reorganisee par annee (dropdown imbrique):
+  - niveau 1: `Evenements`
+  - niveau 2: annees detectees automatiquement depuis `startDateISO` (ex: `2026`, `2025`)
+  - niveau 3: evenements de l'annee (liens vers `/events/[slug]`)
+  - lien final conserve: `Tous les evenements`
+- Ajout de 3 nouveaux evenements:
+  - `demi-journee-scientifique-aprt-chu-2026`
+  - `demi-journee-neuro-pediatrie-2025`
+  - `table-ronde-rhinite-orl-2025`
+- Ajout des affiches correspondantes dans `public/assets/events/` (reutilisation des images existantes du dossier).
 
 ## Stack
 - Next.js (App Router) + TypeScript
@@ -75,6 +85,12 @@ Puis ouvrir `http://localhost:3000`.
    - `sections.eposters[]`
    - optionnels: `sections.presidentMessage`, `sections.practicalInfo`, `sections.documents`, `sections.usefulLinks`
 3. Ajouter poster dans `public/assets/events/`.
+
+## Navigation des evenements par annee
+- Le menu `Evenements` de la navbar est genere a partir de `content/events/index.json`.
+- L'annee est extraite automatiquement de `startDateISO`.
+- Chaque annee cree un sous-menu, meme avec un seul evenement.
+- L'ordre est decroissant (annees recentes d'abord), puis tri des evenements de l'annee par date.
 
 ## Ajouter des e-posters
 - Ajouter une entree dans `sections.eposters` du JSON evenement:

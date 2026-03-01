@@ -1,7 +1,7 @@
 [
   {
     "slug": "aprt-2026",
-    "editionTitle": "LES 32ÈME JOURNÉES SCIENTIFIQUES ANNUELLES (APRT)",
+    "editionTitle": "LES 32EME JOURNEES SCIENTIFIQUES ANNUELLES (APRT)",
     "datesText": "Du 08 au 10 Mai 2026",
     "city": "Marrakech",
     "posterImagePath": "/assets/events/2026-poster.jpg",
@@ -10,9 +10,39 @@
     "startDateISO": "2026-05-08"
   },
   {
+    "slug": "demi-journee-scientifique-aprt-chu-2026",
+    "editionTitle": "Demi-journee scientifique - Pediatrie (APRT + CHU Mohammed VI Marrakech)",
+    "datesText": "Samedi 17 janvier 2026",
+    "city": "Essaouira",
+    "venue": "Hotel Le Golf d'Essaouira & Spa",
+    "posterImagePath": "/assets/events/demi-journee-scientifique-aprt-chu-2026.png",
+    "status": "past",
+    "startDateISO": "2026-01-17"
+  },
+  {
+    "slug": "table-ronde-rhinite-orl-2025",
+    "editionTitle": "Table ronde - Rhinite allergique & infections ORL a repetition (APRT + Bottu)",
+    "datesText": "27/11/2025 - 19h00",
+    "city": "Marrakech",
+    "venue": "Hotel & Ryads Barriere Le Naoura",
+    "posterImagePath": "/assets/events/table-ronde-rhinite-orl-2025.png",
+    "status": "past",
+    "startDateISO": "2025-11-27"
+  },
+  {
+    "slug": "demi-journee-neuro-pediatrie-2025",
+    "editionTitle": "Demi-journee de Neuro-Pediatrie (Pediatrie A + APRT)",
+    "datesText": "Samedi 18 octobre 2025 - 15h00",
+    "city": "Marrakech",
+    "venue": "Radisson Blu Marrakech",
+    "posterImagePath": "/assets/events/demi-journee-neuro-pediatrie-2025.png",
+    "status": "past",
+    "startDateISO": "2025-10-18"
+  },
+  {
     "slug": "aprt-2025",
-    "editionTitle": "LES 31ÈME JOURNÉES SCIENTIFIQUES ANNUELLES (APRT)",
-    "datesText": "du 13 au 15 juin 2025",
+    "editionTitle": "LES 31EME JOURNEES SCIENTIFIQUES ANNUELLES (APRT)",
+    "datesText": "Du 13 au 15 juin 2025",
     "city": "Marrakech",
     "venue": "Hotel Adam Park Marrakech",
     "posterImagePath": "/assets/events/2025-poster.jpg",

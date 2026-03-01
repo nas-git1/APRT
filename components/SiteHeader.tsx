@@ -5,12 +5,33 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import eventsIndex from "@/content/events/index.json";
+import type { EventIndexItem } from "@/lib/types";
 
 type MenuItem = {
   label: string;
   href?: string;
-  children?: { label: string; href: string }[];
+  children?: MenuItem[];
 };
+
+const eventsByYear = (eventsIndex as EventIndexItem[]).reduce<Record<string, EventIndexItem[]>>((acc, event) => {
+  const year = String(new Date(event.startDateISO).getFullYear());
+  if (!acc[year]) acc[year] = [];
+  acc[year].push(event);
+  return acc;
+}, {});
+
+const eventYearItems: MenuItem[] = Object.keys(eventsByYear)
+  .sort((a, b) => Number(b) - Number(a))
+  .map((year) => ({
+    label: year,
+    children: [...eventsByYear[year]]
+      .sort((a, b) => (a.startDateISO < b.startDateISO ? 1 : -1))
+      .map((event) => ({
+        label: event.editionTitle,
+        href: `/events/${event.slug}`
+      }))
+  }));
 
 const menuItems: MenuItem[] = [
   { label: "Accueil", href: "/" },
@@ -18,13 +39,12 @@ const menuItems: MenuItem[] = [
   { label: "Intervenants", href: "/intervenants" },
   { label: "E-posters", href: "/eposters" },
   { label: "Galerie", href: "/galerie" },
-  { label: "À propos de nous", href: "/a-propos" },
+  { label: "A propos de nous", href: "/a-propos" },
   {
-    label: "Événements",
+    label: "Evenements",
     children: [
-      { label: "Événement principal (2026)", href: "/events/aprt-2026" },
-      { label: "Archives (2025 et +)", href: "/events?filter=past" },
-      { label: "Tous les événements", href: "/events" }
+      ...eventYearItems,
+      { label: "Tous les evenements", href: "/events" }
     ]
   },
   { label: "Contact", href: "/contact" }
@@ -50,10 +70,19 @@ function Chevron({ open }: { open: boolean }) {
   );
 }
 
+function RightChevron() {
+  return (
+    <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M7.5 5L12.5 10L7.5 15" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function SiteHeader() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
+  const [mobileNestedDropdown, setMobileNestedDropdown] = useState<string | null>(null);
 
   return (
     <header className="sticky top-0 z-50 border-b border-brand-100 bg-white/95 backdrop-blur">
@@ -91,17 +120,39 @@ export function SiteHeader() {
                     <Chevron open={false} />
                   </button>
                   <div className="invisible absolute left-0 top-full min-w-64 translate-y-1 rounded-lg border border-brand-100 bg-white p-2 opacity-0 shadow-soft transition duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className={`block rounded-md px-3 py-2 text-sm transition hover:bg-brand-50 hover:text-brand-700 ${
-                          pathname === child.href ? "bg-brand-50 text-brand-700" : "text-slate-700"
-                        }`}
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
+                    {item.children.map((child) =>
+                      child.children ? (
+                        <div key={child.label} className="group/nested relative">
+                          <button className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm text-slate-700 transition hover:bg-brand-50 hover:text-brand-700">
+                            {child.label}
+                            <RightChevron />
+                          </button>
+                          <div className="invisible absolute left-full top-0 z-10 ml-1 min-w-56 rounded-lg border border-brand-100 bg-white p-2 opacity-0 shadow-soft transition duration-150 group-hover/nested:visible group-hover/nested:opacity-100">
+                            {child.children.map((grandChild) => (
+                              <Link
+                                key={grandChild.href}
+                                href={grandChild.href as string}
+                                className={`block rounded-md px-3 py-2 text-sm transition hover:bg-brand-50 hover:text-brand-700 ${
+                                  pathname === grandChild.href ? "bg-brand-50 text-brand-700" : "text-slate-700"
+                                }`}
+                              >
+                                {grandChild.label}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      ) : (
+                        <Link
+                          key={child.href}
+                          href={child.href as string}
+                          className={`block rounded-md px-3 py-2 text-sm transition hover:bg-brand-50 hover:text-brand-700 ${
+                            pathname === child.href ? "bg-brand-50 text-brand-700" : "text-slate-700"
+                          }`}
+                        >
+                          {child.label}
+                        </Link>
+                      )
+                    )}
                   </div>
                 </div>
               ) : (
@@ -137,16 +188,41 @@ export function SiteHeader() {
                         <Chevron open={mobileDropdown === item.label} />
                       </button>
                       <div className={`${mobileDropdown === item.label ? "mt-1 space-y-1" : "hidden"}`}>
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.href}
-                            href={child.href}
-                            onClick={() => setMobileOpen(false)}
-                            className="block rounded-md px-5 py-2 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
-                          >
-                            {child.label}
-                          </Link>
-                        ))}
+                        {item.children.map((child) =>
+                          child.children ? (
+                            <div key={child.label}>
+                              <button
+                                type="button"
+                                className="flex w-full items-center justify-between rounded-md px-5 py-2 text-left text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                                onClick={() => setMobileNestedDropdown((prev) => (prev === child.label ? null : child.label))}
+                              >
+                                {child.label}
+                                <Chevron open={mobileNestedDropdown === child.label} />
+                              </button>
+                              <div className={`${mobileNestedDropdown === child.label ? "mt-1 space-y-1" : "hidden"}`}>
+                                {child.children.map((grandChild) => (
+                                  <Link
+                                    key={grandChild.href}
+                                    href={grandChild.href as string}
+                                    onClick={() => setMobileOpen(false)}
+                                    className="block rounded-md px-8 py-2 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                                  >
+                                    {grandChild.label}
+                                  </Link>
+                                ))}
+                              </div>
+                            </div>
+                          ) : (
+                            <Link
+                              key={child.href}
+                              href={child.href as string}
+                              onClick={() => setMobileOpen(false)}
+                              className="block rounded-md px-5 py-2 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                            >
+                              {child.label}
+                            </Link>
+                          )
+                        )}
                       </div>
                     </div>
                   ) : (

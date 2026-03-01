@@ -1,0 +1,85 @@
+{
+  "slug": "demi-journee-neuro-pediatrie-2025",
+  "editionTitle": "Demi-journee de Neuro-Pediatrie (Pediatrie A + APRT)",
+  "identityLine": "Pediatrie A + APRT",
+  "datesText": "Samedi 18 octobre 2025 - 15h00",
+  "city": "Marrakech",
+  "venue": "Radisson Blu Marrakech, 166-176 avenue Mohamed V, Marrakech 40000",
+  "posterImagePath": "/assets/events/demi-journee-neuro-pediatrie-2025.png",
+  "themes": [
+    "Epilepsie",
+    "Maladies metaboliques",
+    "Cas cliniques interactifs"
+  ],
+  "contacts": [
+    {
+      "name": "Dr Abdelazaiz Katif",
+      "phone": "0661264254"
+    }
+  ],
+  "sections": {
+    "programme": {
+      "days": [
+        {
+          "key": "samedi",
+          "label": "Samedi 18 octobre 2025",
+          "sessions": [
+            {
+              "title": "Cas cliniques interactifs: epilepsie et maladies metaboliques",
+              "time": "15h00",
+              "talks": [
+                {
+                  "speaker": "Pr Mohamed Bouskraoui",
+                  "title": "Presentation"
+                },
+                {
+                  "speaker": "Pr Soumia Mrhar",
+                  "title": "Presentation"
+                }
+              ],
+              "moderators": [
+                "Dr Abdelazaiz Katif"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "speakers": [
+      {
+        "name": "Pr Mohamed Bouskraoui",
+        "role": "Presentateur"
+      },
+      {
+        "name": "Pr Soumia Mrhar",
+        "role": "Presentatrice"
+      },
+      {
+        "name": "Dr Abdelazaiz Katif",
+        "role": "Moderateur"
+      }
+    ],
+    "eposters": [],
+    "practicalInfo": [
+      {
+        "title": "Lieu",
+        "value": "Radisson Blu Marrakech"
+      },
+      {
+        "title": "Adresse",
+        "value": "166-176 avenue Mohamed V, Marrakech 40000"
+      },
+      {
+        "title": "Date et heure",
+        "value": "Samedi 18 octobre 2025 - 15h00"
+      }
+    ],
+    "documents": [],
+    "usefulLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  }
+}

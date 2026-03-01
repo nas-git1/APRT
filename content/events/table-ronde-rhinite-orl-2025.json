@@ -1,0 +1,72 @@
+{
+  "slug": "table-ronde-rhinite-orl-2025",
+  "editionTitle": "Table ronde - Rhinite allergique & infections ORL a repetition (APRT + Bottu)",
+  "identityLine": "APRT en collaboration avec Laboratoire Bottu",
+  "datesText": "27/11/2025 - 19h00",
+  "city": "Marrakech",
+  "venue": "Hotel & Ryads Barriere Le Naoura - Marrakech",
+  "posterImagePath": "/assets/events/table-ronde-rhinite-orl-2025.png",
+  "themes": [
+    "Rhinite allergique",
+    "Infections ORL a repetition"
+  ],
+  "contacts": [
+    {
+      "name": "Dr My Abdelaziz Katif",
+      "phone": "0661264254"
+    }
+  ],
+  "sections": {
+    "programme": {
+      "days": [
+        {
+          "key": "jeudi",
+          "label": "Jeudi 27 novembre 2025",
+          "sessions": [
+            {
+              "title": "Table ronde: Rhinite allergique et infections ORL a repetition",
+              "time": "19h00",
+              "talks": [
+                {
+                  "speaker": "Pr Lahcen ADERDOUR (ORL)",
+                  "title": "Orateur principal"
+                }
+              ],
+              "moderators": [
+                "Dr My Abdelaziz Katif"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "speakers": [
+      {
+        "name": "Pr Lahcen ADERDOUR",
+        "role": "Orateur"
+      },
+      {
+        "name": "Dr My Abdelaziz Katif",
+        "role": "Moderateur"
+      }
+    ],
+    "eposters": [],
+    "practicalInfo": [
+      {
+        "title": "Lieu",
+        "value": "Hotel & Ryads Barriere Le Naoura - Marrakech"
+      },
+      {
+        "title": "Date et heure",
+        "value": "27/11/2025 - 19h00"
+      }
+    ],
+    "documents": [],
+    "usefulLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  }
+}

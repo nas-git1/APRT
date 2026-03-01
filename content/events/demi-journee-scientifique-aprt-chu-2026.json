@@ -1,0 +1,85 @@
+{
+  "slug": "demi-journee-scientifique-aprt-chu-2026",
+  "editionTitle": "Demi-journee scientifique - Pediatrie (APRT + CHU Mohammed VI Marrakech)",
+  "identityLine": "Association de Pediatrie de la Region du Tensift (APRT)",
+  "datesText": "Samedi 17 janvier 2026",
+  "city": "Essaouira",
+  "venue": "Hotel Le Golf d'Essaouira & Spa",
+  "posterImagePath": "/assets/events/demi-journee-scientifique-aprt-chu-2026.png",
+  "themes": [
+    "Endocrinologie pediatrique",
+    "Nephrologie pediatrique",
+    "Gastro-enterologie pediatrique"
+  ],
+  "contacts": [
+    {
+      "name": "Association APRT",
+      "phone": "0661264254"
+    }
+  ],
+  "sections": {
+    "programme": {
+      "days": [
+        {
+          "key": "samedi",
+          "label": "Samedi 17 janvier 2026",
+          "sessions": [
+            {
+              "title": "Accueil des participants"
+            },
+            {
+              "title": "Dejeuner"
+            },
+            {
+              "title": "Cas cliniques en endocrinologie pediatrique et nephrologie pediatrique"
+            },
+            {
+              "title": "Pause cafe"
+            },
+            {
+              "title": "Cas cliniques en gastro-enterologie pediatrique"
+            },
+            {
+              "title": "Symposium Nestle (HMO)"
+            },
+            {
+              "title": "Fin de session + diner"
+            }
+          ]
+        }
+      ]
+    },
+    "speakers": [
+      {
+        "name": "Equipe APRT",
+        "role": "Organisateur"
+      },
+      {
+        "name": "Service de Pediatrie B - CHU Mohammed VI Marrakech",
+        "role": "En collaboration"
+      }
+    ],
+    "eposters": [],
+    "practicalInfo": [
+      {
+        "title": "Lieu",
+        "value": "Hotel Le Golf d'Essaouira & Spa"
+      },
+      {
+        "title": "Date",
+        "value": "Samedi 17 janvier 2026"
+      },
+      {
+        "title": "Ville",
+        "value": "Essaouira"
+      }
+    ],
+    "documents": [],
+    "usefulLinks": [
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  }
+}
